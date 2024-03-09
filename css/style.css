@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: "Cairo", sans-serif;
+}
+
+
+header{
+    background-color: rgb(48, 172, 255);
+    line-height: 30px;
+
+}
+
+header a{
+    color: aliceblue;
+    padding-right: 20PX;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 172, 255, 0);
+    position: absolute;
+    z-index: 1;
+    transition: 1s all ease ;
+}
+
+.opacity:hover {
+    background-color: rgba(48, 172, 255, 0.11);
+}
+
+/* start feutures */
+
+.feutures {
+    margin-top: 75px;
+}
+
+.feutures .title-feutures {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(56, 230, 230);
+}
+.feutures h2 {
+    margin-bottom: 35px;
+}
+
+
+.feutures i {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(48, 172, 255);
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.feutures h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.feutures p {
+    color: rgb(63, 63, 63);
+    line-height: 30px;
+}
+/* end feutures */
+
+/* start our team */
+.our-team {
+    background-color: rgb(245, 245, 245);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.our-team h2 {
+    margin-bottom: 35px;
+}
+
+.our-team .card img{
+    transition: all 1s ease;
+}
+
+.our-team .card img:hover{
+    transform: scale(01.02);
+    
+}
+ /* end our team  */
+ /* start statistics */
+.statistics {
+    
+    background-image: url(../image/1.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.statistics .opacity-1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 90px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.statistics .opacity-1 i {
+    color: aliceblue;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+
+.statistics .opacity-1 p {
+    font-size: 25px;
+    color: aliceblue;
+}
+.statistics .opacity-1 span {
+    font-size: 100px;
+    color: aliceblue;
+}
+
+/* end statistics */
+
+/* start Our customers */
+
+.Our-customers {
+    width: 100%;
+    padding: 100px;
+    line-height: 100px;
+    margin-bottom: 100px;
+
+}
+
+.Our-customers h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* end Our customers */
+/* star recent news */
+
+
+.recent-news {
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+.recent-news h2 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+/* end recent news */
+
+/* start footer */
+footer {
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer a {
+    color: aliceblue;
+    list-style: none;
+    text-align: center;
+
+}
+footer h2 {
+    padding-bottom: 15px;
+
+}
+
+footer a:hover{
+    color: rgb(189, 189, 189);
+    
+}
+
+/* end footer */
+
+/* start blogs */
+
+.jumbotron {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;   
+}
+
+.jumbotron .blog-info{
+    flex: 2;
+}
+
+.jumbotron .blog-image{
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.Categories {
+    padding-left: 50px;
+}
+
+
+
+
+.blog-details p {
+    line-height: 2;
+    padding: 20px;
+    direction: rtl;
+}
+
+
+
+
+
+/* start contact us */
+
+.contact-us .card {
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* end contact us */
